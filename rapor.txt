@@ -1,10 +1,17 @@
 === Resmî Gazete Analizi Raporu ===
 
 Ana Başlık: YÜRÜTME VE İDARE BÖLÜMÜ
-  - YÖNETMELİKLER: 4 içerik
+  - YÖNETMELİKLER:
+      Toplam Madde: 4
+      PDF Sayısı  : 0
+      HTM Sayısı  : 4
 
 Ana Başlık: YARGI BÖLÜMÜ
-  - ANAYASA MAHKEMESİ KARARLARI: 5 içerik
+  - ANAYASA MAHKEMESİ KARARLARI:
+      Toplam Madde: 5
+      PDF Sayısı  : 5
+      HTM Sayısı  : 0
 
 Ana Başlık: İLÂN BÖLÜMÜ
   - Alt başlık bulunamadı.
+
