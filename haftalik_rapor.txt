@@ -226,3 +226,10 @@ Ana Başlık: İLÂN BÖLÜMÜ
 Toplam Madde (Genel Bölümler): 90
 Toplam PDF Bağlantısı: 60
 Toplam HTM Bağlantısı: 30
+
+=== HAFTALIK BAŞLIK ANALİZİ ===
+Bu süreçte 4 farklı ana başlık kullanıldı.
+Ana başlıklar: YARGI BÖLÜMÜ, YASAMA BÖLÜMÜ, YÜRÜTME VE İDARE BÖLÜMÜ, İLÂN BÖLÜMÜ
+
+Bu süreçte 15 farklı alt başlık kullanıldı.
+Alt başlıklar: ANA STATÜLER, ANAYASA MAHKEMESİ KARARLARI, CUMHURBAŞKANI KARARLARI, CUMHURBAŞKANLIĞI KARARNAMESİ, GENELGE, HÂKİMLER VE SAVCILAR KURULU KARARLARI, KANUNLAR, KARAR, KURUL KARARLARI, MİLLETLERARASI ANDLAŞMALAR, TEBLİĞ, TEBLİĞLER, YARGITAY KARARI, YÖNETMELİK, YÖNETMELİKLER
