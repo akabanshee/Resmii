@@ -1,0 +1,228 @@
+=== Bir Haftalık Resmî Gazete Analizi ===
+
+--- 10.03.2025 Tarihli Rapor ---
+
+Ana Başlık: YÜRÜTME VE İDARE BÖLÜMÜ
+  - YÖNETMELİKLER:
+      Toplam Madde: 4
+      PDF Sayısı  : 0
+      HTM Sayısı  : 4
+
+Ana Başlık: YARGI BÖLÜMÜ
+  - ANAYASA MAHKEMESİ KARARLARI:
+      Toplam Madde: 5
+      PDF Sayısı  : 5
+      HTM Sayısı  : 0
+
+Ana Başlık: İLÂN BÖLÜMÜ
+  - Alt başlık yok.
+
+İLAN BÖLÜMÜ:
+  - (İlan bölümü yok veya erişilemedi)
+
+
+
+--- 09.03.2025 Tarihli Rapor ---
+
+Ana Başlık: YÜRÜTME VE İDARE BÖLÜMÜ
+  - YÖNETMELİKLER:
+      Toplam Madde: 5
+      PDF Sayısı  : 0
+      HTM Sayısı  : 5
+
+Ana Başlık: İLÂN BÖLÜMÜ
+  - Alt başlık yok.
+
+İLAN BÖLÜMÜ:
+  - (İlan bölümü yok veya erişilemedi)
+
+
+
+--- 08.03.2025 Tarihli Rapor ---
+
+Ana Başlık: YÜRÜTME VE İDARE BÖLÜMÜ
+  - YÖNETMELİKLER:
+      Toplam Madde: 2
+      PDF Sayısı  : 0
+      HTM Sayısı  : 2
+
+  - GENELGE:
+      Toplam Madde: 1
+      PDF Sayısı  : 1
+      HTM Sayısı  : 0
+
+  - TEBLİĞLER:
+      Toplam Madde: 4
+      PDF Sayısı  : 3
+      HTM Sayısı  : 1
+
+  - KARAR:
+      Toplam Madde: 1
+      PDF Sayısı  : 1
+      HTM Sayısı  : 0
+
+Ana Başlık: İLÂN BÖLÜMÜ
+  - Alt başlık yok.
+
+İLAN BÖLÜMÜ:
+  - (İlan bölümü yok veya erişilemedi)
+
+
+
+--- 07.03.2025 Tarihli Rapor ---
+
+Ana Başlık: YÜRÜTME VE İDARE BÖLÜMÜ
+  - MİLLETLERARASI ANDLAŞMALAR:
+      Toplam Madde: 2
+      PDF Sayısı  : 2
+      HTM Sayısı  : 0
+
+  - CUMHURBAŞKANI KARARLARI:
+      Toplam Madde: 15
+      PDF Sayısı  : 15
+      HTM Sayısı  : 0
+
+  - YÖNETMELİKLER:
+      Toplam Madde: 2
+      PDF Sayısı  : 0
+      HTM Sayısı  : 2
+
+  - TEBLİĞ:
+      Toplam Madde: 1
+      PDF Sayısı  : 0
+      HTM Sayısı  : 1
+
+Ana Başlık: YARGI BÖLÜMÜ
+  - ANAYASA MAHKEMESİ KARARLARI:
+      Toplam Madde: 9
+      PDF Sayısı  : 9
+      HTM Sayısı  : 0
+
+Ana Başlık: İLÂN BÖLÜMÜ
+  - Alt başlık yok.
+
+İLAN BÖLÜMÜ:
+  - (İlan bölümü yok veya erişilemedi)
+
+
+
+--- 06.03.2025 Tarihli Rapor ---
+
+Ana Başlık: YÜRÜTME VE İDARE BÖLÜMÜ
+  - CUMHURBAŞKANLIĞI KARARNAMESİ:
+      Toplam Madde: 1
+      PDF Sayısı  : 1
+      HTM Sayısı  : 0
+
+  - YÖNETMELİK:
+      Toplam Madde: 1
+      PDF Sayısı  : 1
+      HTM Sayısı  : 0
+
+  - ANA STATÜLER:
+      Toplam Madde: 2
+      PDF Sayısı  : 0
+      HTM Sayısı  : 2
+
+  - GENELGE:
+      Toplam Madde: 1
+      PDF Sayısı  : 1
+      HTM Sayısı  : 0
+
+  - TEBLİĞLER:
+      Toplam Madde: 2
+      PDF Sayısı  : 0
+      HTM Sayısı  : 2
+
+Ana Başlık: YARGI BÖLÜMÜ
+  - ANAYASA MAHKEMESİ KARARLARI:
+      Toplam Madde: 7
+      PDF Sayısı  : 7
+      HTM Sayısı  : 0
+
+Ana Başlık: İLÂN BÖLÜMÜ
+  - Alt başlık yok.
+
+İLAN BÖLÜMÜ:
+  - (İlan bölümü yok veya erişilemedi)
+
+
+
+--- 05.03.2025 Tarihli Rapor ---
+
+Ana Başlık: YASAMA BÖLÜMÜ
+  - KANUNLAR:
+      Toplam Madde: 2
+      PDF Sayısı  : 2
+      HTM Sayısı  : 0
+
+Ana Başlık: YÜRÜTME VE İDARE BÖLÜMÜ
+  - MİLLETLERARASI ANDLAŞMALAR:
+      Toplam Madde: 6
+      PDF Sayısı  : 6
+      HTM Sayısı  : 0
+
+  - YÖNETMELİKLER:
+      Toplam Madde: 9
+      PDF Sayısı  : 1
+      HTM Sayısı  : 8
+
+  - TEBLİĞ:
+      Toplam Madde: 1
+      PDF Sayısı  : 0
+      HTM Sayısı  : 1
+
+Ana Başlık: İLÂN BÖLÜMÜ
+  - Alt başlık yok.
+
+İLAN BÖLÜMÜ:
+  - (İlan bölümü yok veya erişilemedi)
+
+
+
+--- 04.03.2025 Tarihli Rapor ---
+
+Ana Başlık: YÜRÜTME VE İDARE BÖLÜMÜ
+  - HÂKİMLER VE SAVCILAR KURULU KARARLARI:
+      Toplam Madde: 1
+      PDF Sayısı  : 1
+      HTM Sayısı  : 0
+
+  - YÖNETMELİK:
+      Toplam Madde: 1
+      PDF Sayısı  : 0
+      HTM Sayısı  : 1
+
+  - TEBLİĞ:
+      Toplam Madde: 1
+      PDF Sayısı  : 0
+      HTM Sayısı  : 1
+
+  - KURUL KARARLARI:
+      Toplam Madde: 2
+      PDF Sayısı  : 2
+      HTM Sayısı  : 0
+
+  - KARAR:
+      Toplam Madde: 1
+      PDF Sayısı  : 1
+      HTM Sayısı  : 0
+
+Ana Başlık: YARGI BÖLÜMÜ
+  - YARGITAY KARARI:
+      Toplam Madde: 1
+      PDF Sayısı  : 1
+      HTM Sayısı  : 0
+
+Ana Başlık: İLÂN BÖLÜMÜ
+  - Alt başlık yok.
+
+İLAN BÖLÜMÜ:
+  - (İlan bölümü yok veya erişilemedi)
+
+
+
+=== HAFTALIK GENEL ANALİZ ===
+Toplam Madde (Genel Bölümler): 90
+Toplam PDF Bağlantısı: 60
+Toplam HTM Bağlantısı: 30
