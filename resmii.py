@@ -2,17 +2,43 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date, timedelta
 
+# Bu anahtar kelimeleri içeren alt başlıkları "özel" kabul ediyoruz
+SPECIAL_KEYWORDS = ["KANUN", "YÖNETMELİK", "TEBLİĞ", "GENELGE"]
+
+def alt_baslik_is_special(heading_text):
+    """
+    Alt başlık metninde eğer SPECIAL_KEYWORDS içinden herhangi bir kelime geçiyorsa True döner.
+    Normalleştirme yok: 'KANUN', 'KANUNLAR', 'KANUNUN' gibi her varyasyon ayrı başlıktır.
+    """
+    h_up = heading_text.upper()
+    for kw in SPECIAL_KEYWORDS:
+        if kw in h_up:
+            return True
+    return False
+
 def parse_ilan_sayfasi(url):
-    """İlan alt sayfasına gider, tüm <a> linklerini toplayarak PDF/HTM sayısını döndürür."""
+    """
+    İlan alt sayfasına gider, tüm <a> linklerini toplayarak
+    .pdf / .htm linklerinin sayısını tutar.
+    Dönüş: [ {metin, href, pdf_sayisi, htm_sayisi}, ... ]
+    """
     ilanlar = []
     try:
-        r = requests.get(url, timeout=10)
+        r = requests.get(url, timeout=10)  # timeout eklendi
         r.raise_for_status()
-    except requests.exceptions.RequestException:
-        return ilanlar  # Sayfa erişilemezse boş
+    except requests.exceptions.Timeout:
+        print(f"[Zaman Aşımı] İlan sayfası: {url}")
+        return ilanlar
+    except requests.exceptions.RequestException as e:
+        print(f"[İstek Hatası] İlan sayfası: {url} - {e}")
+        return ilanlar
+    
+    # Otomatik charset tespit yerine doğrudan UTF-8
+    r.encoding = "utf-8"
     
     soup = BeautifulSoup(r.text, "html.parser")
     linkler = soup.find_all("a", href=True)
+    
     for l in linkler:
         metin = l.get_text(strip=True)
         href = l["href"].strip()
@@ -33,11 +59,36 @@ def parse_ilan_sayfasi(url):
         })
     return ilanlar
 
-
 def resmi_gazete_analizi(url):
     """
-    Bir günün (ör. 10.03.2025) Resmî Gazete sayfasını parse eder.
-    Ana/Alt başlık, toplam madde, PDF/HTM sayısı, İlan alt sayfalarını döndürür.
+    Bir günün (ör: 10.03.2025) Resmî Gazete sayfasını parse eder.
+    Her ana başlık, alt başlık ve fihrist maddelerini raporlar.
+    
+    Dönüş:
+    {
+      "Genel Bölümler": {
+        "<ANA_BASLIK>": {
+          "<ALT_BASLIK>": {
+            "toplam_madde": X,
+            "pdf_sayisi": Y,
+            "htm_sayisi": Z,
+            "items": [
+               {"title": "...", "format": "pdf|htm|pdf+htm|none"},
+               ...
+            ]
+          },
+          ...
+        },
+        ...
+      },
+      "İlan Bölümü": {
+        "<link_text>": {
+           "url": "...",
+           "ilanlar": [ {metin, href, pdf_sayisi, htm_sayisi}, ... ]
+        },
+        ...
+      }
+    }
     """
     headers = {
         "User-Agent": (
@@ -47,27 +98,31 @@ def resmi_gazete_analizi(url):
         )
     }
     
-    rapor = {
-        "Genel Bölümler": {},
-        "İlan Bölümü": {}
-    }
+    rapor = {"Genel Bölümler": {}, "İlan Bölümü": {}}
     
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=10)  # timeout eklendi
         response.raise_for_status()
-    except requests.exceptions.RequestException:
-        return rapor  # Erişilemezse boş
+    except requests.exceptions.Timeout:
+        print(f"[Zaman Aşımı] Ana sayfa: {url}")
+        return rapor
+    except requests.exceptions.RequestException as e:
+        print(f"[İstek Hatası] Ana sayfa: {url} - {e}")
+        return rapor
     
-    response.encoding = response.apparent_encoding
+    # Otomatik tespit yerine doğrudan UTF-8
+    response.encoding = "utf-8"
+    
     soup = BeautifulSoup(response.text, "html.parser")
     
+    # Ana başlıklar: <div class="card-title html-title">
     ana_basliklar = soup.find_all("div", class_="card-title html-title")
     
     for ana_baslik in ana_basliklar:
         ana_baslik_metin = ana_baslik.get_text(strip=True)
         
+        # İLAN BÖLÜMÜ
         if "İLAN BÖLÜMÜ" in ana_baslik_metin.upper():
-            # İlan linkleri
             sonraki = ana_baslik.find_next_sibling()
             while sonraki:
                 if ("card-title" in sonraki.get("class", []) and "html-title" in sonraki.get("class", [])):
@@ -86,8 +141,9 @@ def resmi_gazete_analizi(url):
                             "ilanlar": ilan_sayfa_sonucu
                         }
                 sonraki = sonraki.find_next_sibling()
+        
         else:
-            # Genel başlık
+            # GENEL BÖLÜMLER
             rapor["Genel Bölümler"][ana_baslik_metin] = {}
             sonraki = ana_baslik.find_next_sibling()
             
@@ -100,10 +156,10 @@ def resmi_gazete_analizi(url):
                     toplam_madde = 0
                     pdf_sayisi = 0
                     htm_sayisi = 0
+                    items_list = []
                     
                     alt_sonraki = sonraki.find_next_sibling()
                     while alt_sonraki:
-                        # yeni alt başlık veya ana başlık gelince dur
                         if ("html-subtitle" in alt_sonraki.get("class", []) or
                             ("card-title" in alt_sonraki.get("class", []) and "html-title" in alt_sonraki.get("class", []))):
                             break
@@ -111,139 +167,137 @@ def resmi_gazete_analizi(url):
                         if ("fihrist-item" in alt_sonraki.get("class", []) and "mb-1" in alt_sonraki.get("class", [])):
                             toplam_madde += 1
                             maddelinks = alt_sonraki.find_all("a", href=True)
+                            
+                            item_text = alt_sonraki.get_text(" ", strip=True)
+                            
+                            item_pdf = 0
+                            item_htm = 0
                             for ml in maddelinks:
                                 ml_href = ml["href"].lower().strip()
                                 if ml_href.endswith(".pdf"):
-                                    pdf_sayisi += 1
+                                    item_pdf += 1
                                 elif ml_href.endswith(".htm"):
-                                    htm_sayisi += 1
+                                    item_htm += 1
+                            
+                            # format
+                            if item_pdf > 0 and item_htm == 0:
+                                item_format = "pdf"
+                            elif item_pdf == 0 and item_htm > 0:
+                                item_format = "htm"
+                            elif item_pdf > 0 and item_htm > 0:
+                                item_format = "pdf+htm"
+                            else:
+                                item_format = "none"
+                            
+                            pdf_sayisi += item_pdf
+                            htm_sayisi += item_htm
+                            
+                            items_list.append({
+                                "title": item_text,
+                                "format": item_format
+                            })
                         
                         alt_sonraki = alt_sonraki.find_next_sibling()
                     
                     rapor["Genel Bölümler"][ana_baslik_metin][alt_baslik_metin] = {
                         "toplam_madde": toplam_madde,
                         "pdf_sayisi": pdf_sayisi,
-                        "htm_sayisi": htm_sayisi
+                        "htm_sayisi": htm_sayisi,
+                        "items": items_list
                     }
                 sonraki = sonraki.find_next_sibling()
     
     return rapor
 
-
-def yillik_analiz(baslangic_tarih, bitis_tarih, dosya_adi="yillik_rapor.txt"):
+def son_1_yil_analizi(output_file="1_yil_raporu.txt"):
     """
-    İki tarih arasında her günü parse ederek:
-    - Günlük özet (madde, pdf, htm)
-    - Ana/Alt başlık frekansı
-    - Toplam analiz
-    - TÜM benzersiz ana/alt başlıklar + frekansları
+    Bugünden geriye 1 yılın her gününü tarar. (timeout=10 ile yavaş/yanıtsız istekler atlanır)
+    Her günün raporunu toplayıp, ana/alt başlık frekansı ve maddeleri .txt'ye yazar.
     """
-    gunluk_ozet = {}
-    heading_freq = {}      # { "YÜRÜTME VE İDARE BÖLÜMÜ": X, ... }
-    sub_heading_freq = {}  # { "YÖNETMELİKLER": Y, ... }
-
-    total_madde_all = 0
-    total_pdf_all = 0
-    total_htm_all = 0
-
-    current_day = baslangic_tarih
-    one_day = timedelta(days=1)
+    today = date.today()
+    baslangic = date(today.year - 1, today.month, today.day)
+    bitis = today
     
-    while current_day <= bitis_tarih:
-        day_str = current_day.strftime("%d.%m.%Y")
-        url = f"https://www.resmigazete.gov.tr/{day_str}"
+    heading_freq = {}
+    sub_heading_freq = {}
+    total_madde = 0
+    total_pdf = 0
+    total_htm = 0
+    
+    # Özel alt başlık detaylarını tutmak isterseniz ek bir yapı oluşturabilirsiniz.
+    # Bu örnekte sadece frekans + toplu veri + maddeler raporluyoruz.
+    
+    current_day = baslangic
+    while current_day <= bitis:
+        iso_date_str = current_day.isoformat()
+        rgz_date_str = current_day.strftime("%d.%m.%Y")
         
-        rapor = resmi_gazete_analizi(url)
-        
-        daily_madde = 0
-        daily_pdf = 0
-        daily_htm = 0
+        url = f"https://www.resmigazete.gov.tr/{rgz_date_str}"
+        gunluk_rapor = resmi_gazete_analizi(url)
         
         # GENEL BÖLÜMLER
-        for ana_b, alt_dict in rapor["Genel Bölümler"].items():
+        for ana_b, alt_dict in gunluk_rapor["Genel Bölümler"].items():
             heading_freq[ana_b] = heading_freq.get(ana_b, 0) + 1
-            for alt_b, vals in alt_dict.items():
+            
+            for alt_b, alt_info in alt_dict.items():
                 sub_heading_freq[alt_b] = sub_heading_freq.get(alt_b, 0) + 1
-                daily_madde += vals["toplam_madde"]
-                daily_pdf += vals["pdf_sayisi"]
-                daily_htm += vals["htm_sayisi"]
+                
+                total_madde += alt_info["toplam_madde"]
+                total_pdf += alt_info["pdf_sayisi"]
+                total_htm += alt_info["htm_sayisi"]
         
         # İLAN BÖLÜMÜ
-        if rapor["İlan Bölümü"]:
+        ilan_data = gunluk_rapor["İlan Bölümü"]
+        if ilan_data:
             heading_freq["İLAN BÖLÜMÜ"] = heading_freq.get("İLAN BÖLÜMÜ", 0) + 1
-            for alt_b, data in rapor["İlan Bölümü"].items():
+            for alt_b, alt_info in ilan_data.items():
                 sub_heading_freq[alt_b] = sub_heading_freq.get(alt_b, 0) + 1
-                for ilan_info in data["ilanlar"]:
-                    daily_pdf += ilan_info["pdf_sayisi"]
-                    daily_htm += ilan_info["htm_sayisi"]
+                
+                pdf_ilan = sum(i["pdf_sayisi"] for i in alt_info["ilanlar"])
+                htm_ilan = sum(i["htm_sayisi"] for i in alt_info["ilanlar"])
+                total_pdf += pdf_ilan
+                total_htm += htm_ilan
         
-        gunluk_ozet[day_str] = (daily_madde, daily_pdf, daily_htm)
-        
-        total_madde_all += daily_madde
-        total_pdf_all += daily_pdf
-        total_htm_all += daily_htm
-        
-        current_day += one_day
+        current_day += timedelta(days=1)
     
-    # Raporu yazma
-    with open(dosya_adi, "w", encoding="utf-8") as f:
-        f.write(f"=== {baslangic_tarih.strftime('%d.%m.%Y')} - {bitis_tarih.strftime('%d.%m.%Y')} YILLIK RAPOR ===\n\n")
+    # Raporu yaz
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write("=== Son 1 Yıl Resmî Gazete Analizi (Timeout=10, UTF-8) ===\n\n")
+        f.write(f"Başlangıç Tarihi: {baslangic}\n")
+        f.write(f"Bitiş Tarihi: {bitis}\n\n")
         
-        # Günlük özet (tarih sırasını reverse=True diyorsanız alfabetik ters olacak)
-        all_days_sorted = sorted(gunluk_ozet.keys(), reverse=True)
-        f.write("=== GÜNLÜK ÖZET ===\n")
-        for d_str in all_days_sorted:
-            m, p, h = gunluk_ozet[d_str]
-            f.write(f"{d_str} => Madde: {m}, PDF: {p}, HTM: {h}\n")
+        f.write(f"Toplam Madde: {total_madde}\n")
+        f.write(f"Toplam PDF: {total_pdf}\n")
+        f.write(f"Toplam HTM: {total_htm}\n\n")
         
-        f.write("\n\n=== GENİŞ ANALİZ ===\n")
-        f.write(f"Toplam Madde: {total_madde_all}\n")
-        f.write(f"Toplam PDF: {total_pdf_all}\n")
-        f.write(f"Toplam HTM: {total_htm_all}\n\n")
+        # Frekans
+        heading_list = sorted(heading_freq.items(), key=lambda x: x[1], reverse=True)
+        sub_list = sorted(sub_heading_freq.items(), key=lambda x: x[1], reverse=True)
         
-        # Sık geçen ana/alt başlık sayıları
-        unique_headings = list(heading_freq.keys())
-        unique_subheads = list(sub_heading_freq.keys())
+        f.write(f"Farklı Ana Başlık Sayısı: {len(heading_list)}\n")
+        f.write(f"Farklı Alt Başlık Sayısı: {len(sub_list)}\n\n")
         
-        f.write(f"Farklı Ana Başlık Sayısı: {len(unique_headings)}\n")
-        f.write(f"Farklı Alt Başlık Sayısı: {len(unique_subheads)}\n\n")
+        f.write("En Sık Geçen 5 Ana Başlık (kaç günde görülmüş):\n")
+        for hb, c in heading_list[:5]:
+            f.write(f"  - {hb}: {c}\n")
         
-        # En sık geçen 5 ana başlık
-        sorted_headings = sorted(heading_freq.items(), key=lambda x: x[1], reverse=True)
-        top_5_headings = sorted_headings[:5]
+        f.write("\nEn Sık Geçen 10 Alt Başlık (kaç günde görülmüş):\n")
+        for sb, c in sub_list[:10]:
+            f.write(f"  - {sb}: {c}\n")
         
-        f.write("En Sık Geçen 5 Ana Başlık:\n")
-        for baslik, cnt in top_5_headings:
-            f.write(f"  - {baslik}: {cnt} günde yer almış.\n")
-        
-        # En sık geçen 10 alt başlık
-        sorted_subs = sorted(sub_heading_freq.items(), key=lambda x: x[1], reverse=True)
-        top_10_subs = sorted_subs[:10]
-        
-        f.write("\nEn Sık Geçen 10 Alt Başlık:\n")
-        for subb, cnt in top_10_subs:
-            f.write(f"  - {subb}: {cnt} günde yer almış.\n")
-        
-        # Tüm ana başlıklar (tek tek, frekanslarıyla)
-        f.write("\n=== BÜTÜN ANA BAŞLIKLAR (frekans) ===\n")
-        for hb, freq_val in sorted_headings:
+        f.write("\n=== TÜM ANA BAŞLIKLAR (frekans) ===\n")
+        for hb, freq_val in heading_list:
             f.write(f"  - {hb}: {freq_val}\n")
         
-        # Tüm alt başlıklar (tek tek, frekanslarıyla)
-        f.write("\n=== BÜTÜN ALT BAŞLIKLAR (frekans) ===\n")
-        for sb, freq_val in sorted_subs:
+        f.write("\n=== TÜM ALT BAŞLIKLAR (frekans) ===\n")
+        for sb, freq_val in sub_list:
             f.write(f"  - {sb}: {freq_val}\n")
         
-        f.write("\nNOT: Burada 'frekans' başlıkların kaç farklı günde geçtiğini ifade eder.\n")
-
+        f.write("\nNOT: Her başlık bir günde birçok defa da geçse 1 sayılır.\n")
 
 def main():
-    baslangic = date(2024, 3, 10)
-    bitis = date(2025, 3, 10)
-    
-    yillik_analiz(baslangic, bitis, "yillik_rapor.txt")
-    print("Yıllık rapor oluşturuldu: yillik_rapor.txt")
-
+    son_1_yil_analizi("1_yil_raporu.txt")
+    print("1 yıllık rapor oluşturuldu: 1_yil_raporu.txt")
 
 if __name__ == "__main__":
     main()
