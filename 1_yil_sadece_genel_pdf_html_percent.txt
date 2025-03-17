@@ -1,11 +1,11 @@
 === Son 1 Yıl (Sadece GENEL BÖLÜMLER) Analizi ===
 
-Başlangıç Tarihi: 2024-03-13
-Bitiş Tarihi: 2025-03-13
+Başlangıç Tarihi: 2024-03-17
+Bitiş Tarihi: 2025-03-17
 
-Toplam Madde: 3007
-Toplam PDF: 1476
-Toplam HTM: 1531
+Toplam Madde: 3043
+Toplam PDF: 1508
+Toplam HTM: 1535
 
 Farklı Ana Başlık Sayısı: 4
 Farklı Alt Başlık Sayısı: 46
@@ -13,38 +13,38 @@ Farklı Alt Başlık Sayısı: 46
 En Sık Geçen 5 Ana Başlık (kaç günde?):
   - YÜRÜTME VE İDARE BÖLÜMÜ: 353
   - İLÂN BÖLÜMÜ: 353
-  - YARGI BÖLÜMÜ: 131
+  - YARGI BÖLÜMÜ: 132
   - YASAMA BÖLÜMÜ: 42
 
 En Sık Geçen 10 Alt Başlık (kaç günde?):
-  - YÖNETMELİKLER: 262
-  - TEBLİĞLER: 122
+  - YÖNETMELİKLER: 263
+  - TEBLİĞLER: 123
   - TEBLİĞ: 79
-  - ANAYASA MAHKEMESİ KARARLARI: 75
-  - YÖNETMELİK: 69
-  - CUMHURBAŞKANI KARARLARI: 58
-  - ATAMA KARARLARI: 40
-  - KURUL KARARLARI: 39
-  - KURUL KARARI: 32
-  - CUMHURBAŞKANI KARARI: 20
+  - ANAYASA MAHKEMESİ KARARLARI: 76
+  - YÖNETMELİK: 68
+  - CUMHURBAŞKANI KARARLARI: 59
+  - ATAMA KARARLARI: 41
+  - KURUL KARARLARI: 38
+  - KURUL KARARI: 33
+  - CUMHURBAŞKANI KARARI: 19
 
 === TÜM ANA BAŞLIKLAR (frekans, PDF/HTM sayıları ve Yüzdeleri) ===
-  - YÜRÜTME VE İDARE BÖLÜMÜ => Gün Frekansı: 353, PDF: 929 (%38.4), HTM: 1489 (%61.6)
+  - YÜRÜTME VE İDARE BÖLÜMÜ => Gün Frekansı: 353, PDF: 949 (%38.9), HTM: 1493 (%61.1)
   - İLÂN BÖLÜMÜ => Gün Frekansı: 353, PDF: 0 (%0.0), HTM: 0 (%0.0)
-  - YARGI BÖLÜMÜ => Gün Frekansı: 131, PDF: 509 (%99.8), HTM: 1 (%0.2)
+  - YARGI BÖLÜMÜ => Gün Frekansı: 132, PDF: 521 (%99.8), HTM: 1 (%0.2)
   - YASAMA BÖLÜMÜ => Gün Frekansı: 42, PDF: 38 (%48.1), HTM: 41 (%51.9)
 
 === TÜM ALT BAŞLIKLAR (frekans, PDF/HTM sayıları ve Yüzdeleri) ===
-  - YÖNETMELİKLER => Gün Frekansı: 262, PDF: 17 (%1.7), HTM: 1004 (%98.3)
-  - TEBLİĞLER => Gün Frekansı: 122, PDF: 97 (%22.2), HTM: 339 (%77.8)
+  - YÖNETMELİKLER => Gün Frekansı: 263, PDF: 18 (%1.8), HTM: 1009 (%98.2)
+  - TEBLİĞLER => Gün Frekansı: 123, PDF: 102 (%23.1), HTM: 339 (%76.9)
   - TEBLİĞ => Gün Frekansı: 79, PDF: 8 (%10.1), HTM: 71 (%89.9)
-  - ANAYASA MAHKEMESİ KARARLARI => Gün Frekansı: 75, PDF: 436 (%100.0), HTM: 0 (%0.0)
-  - YÖNETMELİK => Gün Frekansı: 69, PDF: 2 (%2.9), HTM: 67 (%97.1)
-  - CUMHURBAŞKANI KARARLARI => Gün Frekansı: 58, PDF: 468 (%100.0), HTM: 0 (%0.0)
-  - ATAMA KARARLARI => Gün Frekansı: 40, PDF: 41 (%100.0), HTM: 0 (%0.0)
-  - KURUL KARARLARI => Gün Frekansı: 39, PDF: 66 (%100.0), HTM: 0 (%0.0)
-  - KURUL KARARI => Gün Frekansı: 32, PDF: 32 (%100.0), HTM: 0 (%0.0)
-  - CUMHURBAŞKANI KARARI => Gün Frekansı: 20, PDF: 20 (%100.0), HTM: 0 (%0.0)
+  - ANAYASA MAHKEMESİ KARARLARI => Gün Frekansı: 76, PDF: 448 (%100.0), HTM: 0 (%0.0)
+  - YÖNETMELİK => Gün Frekansı: 68, PDF: 2 (%2.9), HTM: 66 (%97.1)
+  - CUMHURBAŞKANI KARARLARI => Gün Frekansı: 59, PDF: 483 (%100.0), HTM: 0 (%0.0)
+  - ATAMA KARARLARI => Gün Frekansı: 41, PDF: 42 (%100.0), HTM: 0 (%0.0)
+  - KURUL KARARLARI => Gün Frekansı: 38, PDF: 65 (%100.0), HTM: 0 (%0.0)
+  - KURUL KARARI => Gün Frekansı: 33, PDF: 33 (%100.0), HTM: 0 (%0.0)
+  - CUMHURBAŞKANI KARARI => Gün Frekansı: 19, PDF: 19 (%100.0), HTM: 0 (%0.0)
   - YARGITAY KARARI => Gün Frekansı: 17, PDF: 17 (%100.0), HTM: 0 (%0.0)
   - ANAYASA MAHKEMESİ KARARI => Gün Frekansı: 16, PDF: 16 (%100.0), HTM: 0 (%0.0)
   - MİLLETLERARASI ANDLAŞMALAR => Gün Frekansı: 16, PDF: 65 (%100.0), HTM: 0 (%0.0)
@@ -53,9 +53,9 @@ En Sık Geçen 10 Alt Başlık (kaç günde?):
   - DANIŞTAY KARARI => Gün Frekansı: 14, PDF: 14 (%100.0), HTM: 0 (%0.0)
   - MİLLETLERARASI ANDLAŞMA => Gün Frekansı: 14, PDF: 14 (%100.0), HTM: 0 (%0.0)
   - TBMM KARARI => Gün Frekansı: 14, PDF: 14 (%100.0), HTM: 0 (%0.0)
-  - KARAR => Gün Frekansı: 13, PDF: 13 (%100.0), HTM: 0 (%0.0)
   - YARGITAY KARARLARI => Gün Frekansı: 13, PDF: 13 (%100.0), HTM: 0 (%0.0)
   - CUMHURBAŞKANLIĞINA VEKÂLET ETME İŞLEMİ => Gün Frekansı: 13, PDF: 13 (%100.0), HTM: 0 (%0.0)
+  - KARAR => Gün Frekansı: 12, PDF: 12 (%100.0), HTM: 0 (%0.0)
   - CUMHURBAŞKANLIĞI KARARNAMESİ => Gün Frekansı: 12, PDF: 9 (%75.0), HTM: 3 (%25.0)
   - ATAMA KARARI => Gün Frekansı: 9, PDF: 9 (%100.0), HTM: 0 (%0.0)
   - HÂKİMLER VE SAVCILAR KURULU KARARLARI => Gün Frekansı: 8, PDF: 9 (%100.0), HTM: 0 (%0.0)
@@ -186,8 +186,6 @@ En Sık Geçen 10 Alt Başlık (kaç günde?):
     2. 7544 Türkiye Cumhuriyeti Hükümeti ile Azerbaycan Cumhuriyeti Hükümeti Arasında Doğal Gaz Alanına İlişkin İş Birliği Anlaşmasının Onaylanmasının Uygun Bulunduğuna Dair Kanun [format=pdf]
 
 -- TEBLİĞ --
-  2024-03-14 => 1 madde:
-    1. –– Tıbbi Cihaz Yönetmeliğinin Ek XVI’sında Listelenen Tıbbi Amaçlı Olmayan Ürün Gruplarına Yönelik Ortak Spesifikasyonların Belirlenmesi Hakkında Tebliğ [format=htm]
   2024-03-22 => 1 madde:
     1. –– Dış Ticaret Sermaye Şirketlerine İlişkin Karar [format=pdf]
   2024-03-26 => 1 madde:
@@ -344,11 +342,10 @@ En Sık Geçen 10 Alt Başlık (kaç günde?):
     1. –– Harcama Yetkilileri Hakkında Genel Tebliğ [format=htm]
   2025-03-07 => 1 madde:
     1. –– Zorunlu Deprem Sigortası Tarife ve Talimat Tebliğinde Değişiklik Yapılmasına İlişkin Tebliğ [format=htm]
+  2025-03-14 => 1 madde:
+    1. –– Milletlerarası Tahkim Ücret Tarifesi Hakkında Tebliğ [format=htm]
 
 -- TEBLİĞLER --
-  2024-03-16 => 2 madde:
-    1. –– Kamu İhale Sözleşmelerinde Düşük Karbon Emisyonuna Sahip Yeşil Çimento Kullanımının Yaygınlaştırılmasına İlişkin Tebliğ [format=htm]
-    2. –– Kredi Kartı İşlemlerinde Uygulanacak Azami Faiz Oranları Hakkında Tebliğ (Sayı: 2020/16)’de Değişiklik Yapılmasına Dair Tebliğ (Sayı: 2024/6) [format=htm]
   2024-03-17 => 5 madde:
     1. –– 2024 Yılı Şubat Ayına Ait Dahilde İşleme İzin Belgelerinin (D1) Listesi [format=pdf]
     2. –– 2024 Yılı Şubat Ayına Ait Yurt İçi Satış ve Teslim Belgelerinin (D3) Listesi [format=pdf]
@@ -904,10 +901,17 @@ En Sık Geçen 10 Alt Başlık (kaç günde?):
     3. –– Kripto Varlık Hizmet Sağlayıcıların Çalışma Usul ve Esasları ile Sermaye Yeterliliği Hakkında Tebliğ (III-35/B.2) [format=htm]
     4. –– Bilgi Sistemleri Bağımsız Denetim Tebliği (III-62.2)’nde Değişiklik Yapılmasına Dair Tebliğ (III-62.2.b) [format=htm]
     5. –– Bilgi Sistemleri Yönetimine İlişkin Usul ve Esaslar Tebliği (VII-128.10) [format=htm]
+  2025-03-15 => 2 madde:
+    1. – Muhasebat Genel Müdürlüğü Genel Tebliği (Sıra No: 55) (Ön Ödeme Usul ve Esasları)’nin Yürürlükten Kaldırılmasına Dair Tebliğ (Sıra No: 96) [format=htm]
+    2. – Türk Patent ve Marka Kurumunca 2025 Yılında Uygulanacak Ücret Tarifesine İlişkin Tebliğ (BİK/TÜRKPATENT: 2025/1)’de Değişiklik Yapılmasına Dair Tebliğ (BİK/TÜRKPATENT: 2025/2) [format=htm]
+  2025-03-16 => 5 madde:
+    1. –– 2025 Yılı Şubat Ayına Ait Dahilde İşleme İzin Belgelerinin (D1) Listesi [format=pdf]
+    2. –– 2025 Yılı Şubat Ayına Ait Yurt İçi Satış ve Teslim Belgelerinin (D3) Listesi [format=pdf]
+    3. –– 2025 Yılı Şubat Ayına Ait Hariçte İşleme İzin Belgelerinin (H1) Listesi [format=pdf]
+    4. –– 2025 Yılı Şubat Ayına Ait Firma Talebine İstinaden İptal Edilen Dahilde İşleme İzin Belgeleri Listesi [format=pdf]
+    5. –– 2025 Yılı Şubat Ayına Ait Resen İptal Edilen Dahilde İşleme İzin Belgeleri Listesi [format=pdf]
 
 -- YÖNETMELİK --
-  2024-03-13 => 1 madde:
-    1. –– Dokuz Eylül Üniversitesi Arkeoloji ve Arkeometri Uygulama ve Araştırma Merkezi Yönetmeliği [format=htm]
   2024-03-17 => 1 madde:
     1. –– Çanakkale Onsekiz Mart Üniversitesi Bilişsel ve Davranış Bilimleri Uygulama ve Araştırma Merkezi Yönetmeliği [format=htm]
   2024-03-21 => 1 madde:
@@ -1046,19 +1050,6 @@ En Sık Geçen 10 Alt Başlık (kaç günde?):
     1. –– Avrasya Üniversitesi Teknoloji Transfer Ofisi Uygulama ve Araştırma Merkezi Yönetmeliği [format=htm]
 
 -- YÖNETMELİKLER --
-  2024-03-14 => 6 madde:
-    1. –– Atıksu Altyapı ve Evsel Katı Atık Bertaraf Tesisleri Tarifelerinin Belirlenmesinde Uyulacak Usul ve Esaslara İlişkin Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-    2. –– Emniyet Genel Müdürlüğü Adına Yükseköğretim Kurumlarında Okutulacak Öğrencilere Dair Yönetmeliğin Yürürlükten Kaldırılmasına Dair Yönetmelik [format=htm]
-    3. –– Göç İdaresi Başkanlığı Disiplin Amirleri Yönetmeliği [format=htm]
-    4. –– Bitki Koruma Ürünlerinin Ruhsatlandırılması ve Piyasaya Arzı Hakkında Yönetmelik [format=htm]
-    5. –– Esnaf ve Sanatkârlarca Üretilen Mal ve Hizmetlerin Fiyat Tarifeleri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-    6. –– Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-  2024-03-15 => 2 madde:
-    1. –– Yurtdışı Yükseköğretim Diplomaları Tanıma ve Denklik Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-    2. –– İstanbul Beykent Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-  2024-03-16 => 2 madde:
-    1. –– Kapalı Ortamda Bitkisel Üretim Kayıt Sistemi Yönetmeliği [format=htm]
-    2. –– Tarım ve Kırsal Kalkınmayı Destekleme Kurumu Personel Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
   2024-03-18 => 4 madde:
     1. –– Türk Mühendis ve Mimar Odaları Birliği Ziraat Mühendisleri Odası Ana Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
     2. –– İstanbul Esenyurt Üniversitesi Ana Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
@@ -2329,19 +2320,28 @@ En Sık Geçen 10 Alt Başlık (kaç günde?):
     1. –– Araç, Sistem, Aksam ve Ayrı Teknik Ünitelerin Piyasa Gözetimi ve Denetimine İlişkin İdari Şartlar Hakkında Yönetmelik (AB/2022/163) [format=htm]
     2. –– Evcil Hayvan Genetik Kaynaklarının Korunması ve Sürdürülebilir Kullanımı Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
     3. –– Evcil Hayvan Genetik Kaynaklarının Tesciline İlişkin Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  2025-03-14 => 4 madde:
+    1. –– Akıllı Hız Destek Sistemi, Sürücü Dalgınlık ve Dikkat Uyarı Sistemi, Olay Veri Kaydedicisi, Alkol Kilidi Kurulum Ön Hazırlığı ve Gelişmiş Sürücü Dikkat Dağınıklığı Uyarı Sisteminin Tip Onayına İlişkin İdari Şartlar Hakkında Yönetmelik (AB/2024/1721) [format=htm]
+    2. –– Kıyı Tesisi İşletme İzni ve Kıyı Tesisi İşletmecileri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+    3. –– Tersane, Tekne İmal ve Çekek Yeri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+    4. –– Ölçme, Seçme ve Yerleştirme Merkezi Başkanlığı Personeli Görevde Yükselme ve Unvan Değişikliği Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  2025-03-15 => 4 madde:
+    1. –– Ön Ödeme Usul ve Esasları Hakkında Yönetmelik (Karar Sayısı: 9600) [format=pdf]
+    2. –– Fakülte ve Yüksekokullar Askerî Öğrenci Komutanlığı ve Öğrencileri ile Fakülte ve Yüksekokullardan Yetişen Subaylara ve Astsubaylara İlişkin Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+    3. –– Elektronik Ticaret Aracı Hizmet Sağlayıcı ve Elektronik Ticaret Hizmet Sağlayıcılar Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+    4. –– Sınai Mülkiyet Kanununun Uygulanmasına Dair Yönetmelikte Değişiklik Yapılmasına İlişkin Yönetmelik [format=htm]
+  2025-03-16 => 4 madde:
+    1. –– Kayseri Üniversitesi Kadın ve Aile Çalışmaları Uygulama ve Araştırma Merkezi Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+    2. –– Özyeğin Üniversitesi Lisans Eğitim ve Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+    3. –– Özyeğin Üniversitesi Lisansüstü Eğitim ve Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+    4. –– Özyeğin Üniversitesi Yabancı Diller Yüksekokulu İngilizce Hazırlık Programı Eğitim ve Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  2025-03-17 => 4 madde:
+    1. –– Adana Bilim ve Teknoloji Üniversitesi Kadın Çalışmaları Uygulama ve Araştırma Merkezi Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+    2. –– Kütahya Sağlık Bilimleri Üniversitesi Sağlıklı Beslenme ve Yaşam Uygulama ve Araştırma Merkezi Yönetmeliği [format=htm]
+    3. –– OSTİM Teknik Üniversitesi Ana Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+    4. –– OSTİM Teknik Üniversitesi Yaz Öğretimi Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
 
 === YÖNETMELİK(KLER) / KANUN(LAR) MADDELERİ ===
-  - 2024-03-13 | YÖNETMELİK | –– Dokuz Eylül Üniversitesi Arkeoloji ve Arkeometri Uygulama ve Araştırma Merkezi Yönetmeliği [format=htm]
-  - 2024-03-14 | YÖNETMELİKLER | –– Atıksu Altyapı ve Evsel Katı Atık Bertaraf Tesisleri Tarifelerinin Belirlenmesinde Uyulacak Usul ve Esaslara İlişkin Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-  - 2024-03-14 | YÖNETMELİKLER | –– Emniyet Genel Müdürlüğü Adına Yükseköğretim Kurumlarında Okutulacak Öğrencilere Dair Yönetmeliğin Yürürlükten Kaldırılmasına Dair Yönetmelik [format=htm]
-  - 2024-03-14 | YÖNETMELİKLER | –– Göç İdaresi Başkanlığı Disiplin Amirleri Yönetmeliği [format=htm]
-  - 2024-03-14 | YÖNETMELİKLER | –– Bitki Koruma Ürünlerinin Ruhsatlandırılması ve Piyasaya Arzı Hakkında Yönetmelik [format=htm]
-  - 2024-03-14 | YÖNETMELİKLER | –– Esnaf ve Sanatkârlarca Üretilen Mal ve Hizmetlerin Fiyat Tarifeleri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-  - 2024-03-14 | YÖNETMELİKLER | –– Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-  - 2024-03-15 | YÖNETMELİKLER | –– Yurtdışı Yükseköğretim Diplomaları Tanıma ve Denklik Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-  - 2024-03-15 | YÖNETMELİKLER | –– İstanbul Beykent Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
-  - 2024-03-16 | YÖNETMELİKLER | –– Kapalı Ortamda Bitkisel Üretim Kayıt Sistemi Yönetmeliği [format=htm]
-  - 2024-03-16 | YÖNETMELİKLER | –– Tarım ve Kırsal Kalkınmayı Destekleme Kurumu Personel Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
   - 2024-03-17 | YÖNETMELİK | –– Çanakkale Onsekiz Mart Üniversitesi Bilişsel ve Davranış Bilimleri Uygulama ve Araştırma Merkezi Yönetmeliği [format=htm]
   - 2024-03-18 | YÖNETMELİKLER | –– Türk Mühendis ve Mimar Odaları Birliği Ziraat Mühendisleri Odası Ana Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
   - 2024-03-18 | YÖNETMELİKLER | –– İstanbul Esenyurt Üniversitesi Ana Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
@@ -3464,5 +3464,21 @@ En Sık Geçen 10 Alt Başlık (kaç günde?):
   - 2025-03-13 | YÖNETMELİKLER | –– Araç, Sistem, Aksam ve Ayrı Teknik Ünitelerin Piyasa Gözetimi ve Denetimine İlişkin İdari Şartlar Hakkında Yönetmelik (AB/2022/163) [format=htm]
   - 2025-03-13 | YÖNETMELİKLER | –– Evcil Hayvan Genetik Kaynaklarının Korunması ve Sürdürülebilir Kullanımı Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
   - 2025-03-13 | YÖNETMELİKLER | –– Evcil Hayvan Genetik Kaynaklarının Tesciline İlişkin Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-14 | YÖNETMELİKLER | –– Akıllı Hız Destek Sistemi, Sürücü Dalgınlık ve Dikkat Uyarı Sistemi, Olay Veri Kaydedicisi, Alkol Kilidi Kurulum Ön Hazırlığı ve Gelişmiş Sürücü Dikkat Dağınıklığı Uyarı Sisteminin Tip Onayına İlişkin İdari Şartlar Hakkında Yönetmelik (AB/2024/1721) [format=htm]
+  - 2025-03-14 | YÖNETMELİKLER | –– Kıyı Tesisi İşletme İzni ve Kıyı Tesisi İşletmecileri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-14 | YÖNETMELİKLER | –– Tersane, Tekne İmal ve Çekek Yeri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-14 | YÖNETMELİKLER | –– Ölçme, Seçme ve Yerleştirme Merkezi Başkanlığı Personeli Görevde Yükselme ve Unvan Değişikliği Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-15 | YÖNETMELİKLER | –– Ön Ödeme Usul ve Esasları Hakkında Yönetmelik (Karar Sayısı: 9600) [format=pdf]
+  - 2025-03-15 | YÖNETMELİKLER | –– Fakülte ve Yüksekokullar Askerî Öğrenci Komutanlığı ve Öğrencileri ile Fakülte ve Yüksekokullardan Yetişen Subaylara ve Astsubaylara İlişkin Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-15 | YÖNETMELİKLER | –– Elektronik Ticaret Aracı Hizmet Sağlayıcı ve Elektronik Ticaret Hizmet Sağlayıcılar Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-15 | YÖNETMELİKLER | –– Sınai Mülkiyet Kanununun Uygulanmasına Dair Yönetmelikte Değişiklik Yapılmasına İlişkin Yönetmelik [format=htm]
+  - 2025-03-16 | YÖNETMELİKLER | –– Kayseri Üniversitesi Kadın ve Aile Çalışmaları Uygulama ve Araştırma Merkezi Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-16 | YÖNETMELİKLER | –– Özyeğin Üniversitesi Lisans Eğitim ve Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-16 | YÖNETMELİKLER | –– Özyeğin Üniversitesi Lisansüstü Eğitim ve Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-16 | YÖNETMELİKLER | –– Özyeğin Üniversitesi Yabancı Diller Yüksekokulu İngilizce Hazırlık Programı Eğitim ve Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-17 | YÖNETMELİKLER | –– Adana Bilim ve Teknoloji Üniversitesi Kadın Çalışmaları Uygulama ve Araştırma Merkezi Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-17 | YÖNETMELİKLER | –– Kütahya Sağlık Bilimleri Üniversitesi Sağlıklı Beslenme ve Yaşam Uygulama ve Araştırma Merkezi Yönetmeliği [format=htm]
+  - 2025-03-17 | YÖNETMELİKLER | –– OSTİM Teknik Üniversitesi Ana Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
+  - 2025-03-17 | YÖNETMELİKLER | –– OSTİM Teknik Üniversitesi Yaz Öğretimi Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik [format=htm]
 
 NOT: İlan bölümü tamamen atlandı. Her ana/alt başlık için PDF/HTM sayısı da rapora eklendi, ve yüzdeleri (oranları) hesaplandı.

@@ -1,0 +1,100 @@
+=== Son 50 Yıl (Sadece Genel Bölümler, Maddeleri Tek Tek Yazmıyoruz) ===
+
+Başlangıç Tarihi: 1975-03-14
+Bitiş Tarihi: 2025-03-14
+
+Toplam Madde: 21228
+Toplam PDF: 10344
+Toplam HTM: 10884
+
+Farklı Ana Başlık Sayısı: 4
+Farklı Alt Başlık Sayısı: 61
+
+En Sık Geçen 5 Ana Başlık (kaç günde?):
+  - YÜRÜTME VE İDARE BÖLÜMÜ: 2199
+  - İLÂN BÖLÜMÜ: 2199
+  - YARGI BÖLÜMÜ: 1026
+  - YASAMA BÖLÜMÜ: 259
+
+En Sık Geçen 10 Alt Başlık (kaç günde?):
+  - YÖNETMELİKLER: 1855
+  - TEBLİĞLER: 813
+  - ANAYASA MAHKEMESİ KARARLARI: 596
+  - CUMHURBAŞKANI KARARLARI: 488
+  - TEBLİĞ: 439
+  - YÖNETMELİK: 290
+  - ATAMA KARARLARI: 286
+  - KURUL KARARLARI: 257
+  - ANAYASA MAHKEMESİ KARARI: 255
+  - KURUL KARARI: 228
+
+=== TÜM ANA BAŞLIKLAR (frekans, PDF/HTM sayıları ve Yüzdeleri) ===
+  - YÜRÜTME VE İDARE BÖLÜMÜ => Gün Frekansı: 2199, PDF: 7159 (%40.5), HTM: 10502 (%59.5)
+  - İLÂN BÖLÜMÜ => Gün Frekansı: 2199, PDF: 0 (%0.0), HTM: 0 (%0.0)
+  - YARGI BÖLÜMÜ => Gün Frekansı: 1026, PDF: 2952 (%99.3), HTM: 21 (%0.7)
+  - YASAMA BÖLÜMÜ => Gün Frekansı: 259, PDF: 233 (%39.2), HTM: 361 (%60.8)
+
+=== TÜM ALT BAŞLIKLAR (frekans, PDF/HTM sayıları ve Yüzdeleri) ===
+  - YÖNETMELİKLER => Gün Frekansı: 1855, PDF: 302 (%3.8), HTM: 7607 (%96.2)
+  - TEBLİĞLER => Gün Frekansı: 813, PDF: 774 (%26.5), HTM: 2147 (%73.5)
+  - ANAYASA MAHKEMESİ KARARLARI => Gün Frekansı: 596, PDF: 2218 (%99.7), HTM: 7 (%0.3)
+  - CUMHURBAŞKANI KARARLARI => Gün Frekansı: 488, PDF: 3502 (%100.0), HTM: 0 (%0.0)
+  - TEBLİĞ => Gün Frekansı: 439, PDF: 44 (%9.9), HTM: 399 (%90.1)
+  - YÖNETMELİK => Gün Frekansı: 290, PDF: 9 (%3.1), HTM: 282 (%96.9)
+  - ATAMA KARARLARI => Gün Frekansı: 286, PDF: 356 (%100.0), HTM: 0 (%0.0)
+  - KURUL KARARLARI => Gün Frekansı: 257, PDF: 412 (%96.5), HTM: 15 (%3.5)
+  - ANAYASA MAHKEMESİ KARARI => Gün Frekansı: 255, PDF: 256 (%98.1), HTM: 5 (%1.9)
+  - KURUL KARARI => Gün Frekansı: 228, PDF: 223 (%97.0), HTM: 7 (%3.0)
+  - CUMHURBAŞKANI KARARI => Gün Frekansı: 163, PDF: 163 (%100.0), HTM: 0 (%0.0)
+  - YARGITAY KARARI => Gün Frekansı: 142, PDF: 142 (%97.9), HTM: 3 (%2.1)
+  - MİLLETLERARASI ANDLAŞMALAR => Gün Frekansı: 130, PDF: 547 (%100.0), HTM: 0 (%0.0)
+  - YARGITAY KARARLARI => Gün Frekansı: 120, PDF: 128 (%97.7), HTM: 3 (%2.3)
+  - MİLLETLERARASI ANDLAŞMA => Gün Frekansı: 105, PDF: 105 (%100.0), HTM: 0 (%0.0)
+  - KANUN => Gün Frekansı: 103, PDF: 5 (%4.9), HTM: 98 (%95.1)
+  - CUMHURBAŞKANLIĞI KARARNAMESİ => Gün Frekansı: 97, PDF: 94 (%96.9), HTM: 3 (%3.1)
+  - GENELGE => Gün Frekansı: 90, PDF: 90 (%100.0), HTM: 0 (%0.0)
+  - ATAMA KARARI => Gün Frekansı: 89, PDF: 89 (%100.0), HTM: 0 (%0.0)
+  - CUMHURBAŞKANLIĞINA VEKÂLET ETME İŞLEMİ => Gün Frekansı: 85, PDF: 85 (%100.0), HTM: 0 (%0.0)
+  - TBMM KARARI => Gün Frekansı: 74, PDF: 69 (%93.2), HTM: 5 (%6.8)
+  - DANIŞTAY KARARI => Gün Frekansı: 58, PDF: 58 (%100.0), HTM: 0 (%0.0)
+  - HÂKİMLER VE SAVCILAR KURULU KARARLARI => Gün Frekansı: 54, PDF: 69 (%100.0), HTM: 0 (%0.0)
+  - KANUNLAR => Gün Frekansı: 54, PDF: 8 (%3.0), HTM: 255 (%97.0)
+  - KARAR => Gün Frekansı: 54, PDF: 52 (%96.3), HTM: 2 (%3.7)
+  - TBMM KARARLARI => Gün Frekansı: 49, PDF: 157 (%98.1), HTM: 3 (%1.9)
+  - HÂKİMLER VE SAVCILAR KURULU KARARI => Gün Frekansı: 40, PDF: 38 (%95.0), HTM: 2 (%5.0)
+  - YÜKSEK SEÇİM KURULU KARARI => Gün Frekansı: 25, PDF: 25 (%92.6), HTM: 2 (%7.4)
+  - DANIŞTAY KARARLARI => Gün Frekansı: 24, PDF: 34 (%100.0), HTM: 0 (%0.0)
+  - CUMHURBAŞKANLIĞI KARARNAMELERİ => Gün Frekansı: 21, PDF: 52 (%96.3), HTM: 2 (%3.7)
+  - UYUŞMAZLIK MAHKEMESİ KARARLARI => Gün Frekansı: 19, PDF: 19 (%100.0), HTM: 0 (%0.0)
+  - YÜKSEK SEÇİM KURULU KARARLARI => Gün Frekansı: 18, PDF: 57 (%100.0), HTM: 0 (%0.0)
+  - GENELGELER => Gün Frekansı: 12, PDF: 25 (%100.0), HTM: 0 (%0.0)
+  - KARARLAR => Gün Frekansı: 12, PDF: 20 (%90.9), HTM: 2 (%9.1)
+  - ANA STATÜ => Gün Frekansı: 12, PDF: 0 (%0.0), HTM: 12 (%100.0)
+  - İLKE KARARLARI => Gün Frekansı: 12, PDF: 29 (%100.0), HTM: 0 (%0.0)
+  - MİLLETLERARASI SÖZLEŞME => Gün Frekansı: 11, PDF: 11 (%100.0), HTM: 0 (%0.0)
+  - İLKE KARARI => Gün Frekansı: 10, PDF: 10 (%100.0), HTM: 0 (%0.0)
+  - SAYIŞTAY KARARI => Gün Frekansı: 10, PDF: 10 (%90.9), HTM: 1 (%9.1)
+  - YARGITAY ÜYELİKLERİNE SEÇME KARARI => Gün Frekansı: 8, PDF: 8 (%100.0), HTM: 0 (%0.0)
+  - ANAYASA MAHKEMESİ ÜYELİĞİNE SEÇME KARARI => Gün Frekansı: 7, PDF: 7 (%100.0), HTM: 0 (%0.0)
+  - ANAYASA MAHKEMESİ BAŞKANVEKİLLİĞİNE SEÇME KARARI => Gün Frekansı: 6, PDF: 4 (%66.7), HTM: 2 (%33.3)
+  - YÜKSEKÖĞRETİM KURULU ÜYELİĞİNE SEÇME KARARI => Gün Frekansı: 4, PDF: 4 (%100.0), HTM: 0 (%0.0)
+  - ANA STATÜLER => Gün Frekansı: 4, PDF: 0 (%0.0), HTM: 17 (%100.0)
+  - SAYIŞTAY KARARLARI => Gün Frekansı: 4, PDF: 5 (%100.0), HTM: 0 (%0.0)
+  - ANAYASA MAHKEMESİ BAŞKANLIĞINA SEÇME KARARI => Gün Frekansı: 3, PDF: 2 (%66.7), HTM: 1 (%33.3)
+  - YARGITAY CUMHURİYET BAŞSAVCILIĞINA SEÇME KARARI => Gün Frekansı: 3, PDF: 3 (%100.0), HTM: 0 (%0.0)
+  - DANIŞTAY ÜYELİKLERİNE SEÇME KARARI => Gün Frekansı: 3, PDF: 3 (%100.0), HTM: 0 (%0.0)
+  - DANIŞTAY ÜYELİĞİNE SEÇME KARARI => Gün Frekansı: 2, PDF: 2 (%100.0), HTM: 0 (%0.0)
+  - YER ADININ DEĞİŞTİRİLMESİNE DAİR KARAR => Gün Frekansı: 2, PDF: 0 (%0.0), HTM: 2 (%100.0)
+  - YARGITAY CUMHURİYET BAŞSAVCIVEKİLLİĞİNE SEÇME KARARI => Gün Frekansı: 2, PDF: 2 (%100.0), HTM: 0 (%0.0)
+  - UYUŞMAZLIK MAHKEMESİ BAŞKANLIĞINA SEÇME KARARI => Gün Frekansı: 2, PDF: 2 (%100.0), HTM: 0 (%0.0)
+  - UYUŞMAZLIK MAHKEMESİ BAŞKANLIĞINA VE BAŞKANVEKİLLİĞİNE SEÇME KARARI => Gün Frekansı: 2, PDF: 2 (%100.0), HTM: 0 (%0.0)
+  - DANIŞTAY ÜYELİĞİNE SEÇME KARARLARI => Gün Frekansı: 2, PDF: 4 (%100.0), HTM: 0 (%0.0)
+  - ATAMA KARARLARI => Gün Frekansı: 2, PDF: 2 (%100.0), HTM: 0 (%0.0)
+  - İÇTÜZÜK => Gün Frekansı: 1, PDF: 1 (%100.0), HTM: 0 (%0.0)
+  - DANIŞTAY KARARI => Gün Frekansı: 1, PDF: 1 (%100.0), HTM: 0 (%0.0)
+  - HÂKİMLER VE SAVCILAR KURULU ÜYELİĞİNE SEÇME KARARLARI => Gün Frekansı: 1, PDF: 1 (%100.0), HTM: 0 (%0.0)
+  - YÜKSEKÖĞRETİM KURULU BAŞKANLIĞINA SEÇME KARARI => Gün Frekansı: 1, PDF: 1 (%100.0), HTM: 0 (%0.0)
+  - ANAYASA MAHKEMESİ KARARI => Gün Frekansı: 1, PDF: 1 (%100.0), HTM: 0 (%0.0)
+  - ANAYASA MAHKEMESİ KARARLARI => Gün Frekansı: 1, PDF: 2 (%100.0), HTM: 0 (%0.0)
+
+NOT: 'Önemli Alt Başlıklar'ın (Yönetmelik/Kanun) maddeleri rapora dahil edilmedi.
